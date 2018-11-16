@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Appium-Framework">
+
+
+    <parameter name="invokeDriver" value="android" />
+    <parameter name="saucelabs" value="false" />
+	<test name="Appium_with_AI">
+		<classes>
+			<class name="frameworkUtilities.CucumberRunnerUtil" />
+		</classes>
+	</test>
+</suite>
