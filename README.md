@@ -18,7 +18,7 @@ Go through the [Selenium BDD framework](https://github.com/shankybnl/selenium_BD
 $ mvn test
 
 
-### How to levaerage ai element finding capability in your existing framework?
+### How to leverage ai element finding capability in your existing framework?
 
 
 1. Install [test-ai-classifier](https://github.com/testdotai/appium-classifier-plugin) plugin on your system.
@@ -26,7 +26,7 @@ $ mvn test
 
    `npm install -g appium@1.9.2-beta.2 --unsafe-perm=true --allow-root `
    
-3. Add the below dependencies in your pom.xml file
+3. Add the below dependency and repository in your pom.xml file
 
          <repositories>
             <repository>
@@ -71,6 +71,8 @@ $ mvn test
         public By cartImageWithAI = MobileBy.custom("ai:cart");
         public By notificationImageWithAI = MobileBy.custom("ai:notifications");
         
-6. 
+6. Check test-ai-classifier/lib/labels.js file to get the list of predefined labels.
+
+7. If you wish to add your labels which can be used for your app. Here's the [article](https://medium.com/testdotai/training-data-for-app-classifier-f217dc005523) to train the data for classifier plugin
 
 
