@@ -10,7 +10,8 @@ Boilerplate code for BDD (Behavior driven development) style mobile automation f
    
    `npm install -g appium@1.9.2-beta.2 --unsafe-perm=true --allow-root `
 3. I have configured it on mac (10.14.2) with below versions:
-   node v11.4.0
+
+    node v11.4.0
    
 #### BDD framework
 Go through the [Selenium BDD framework](https://github.com/shankybnl/selenium_BDD_framework) readme file to know about the structure. It is designed on the similar lines keeping logic, elements and tests in different files.
